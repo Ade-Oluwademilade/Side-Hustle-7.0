@@ -1,8 +1,8 @@
 <?php
-// Initializing voters details
+// Voter details
 $voter_age = 17;   // Age of the voter
-$has_pvc = True;     // Whether the voter has a Permanent Voter's Card (PVC)
-$voter_ward = '019';  // The ward where the voter is registered
+$has_pvc = True;     // Whether the voter has PVC
+$voter_ward = '019';  // Voter's ward
 
 // Check if voter is above 18 years
 if ($voter_age < 18) {
